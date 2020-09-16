@@ -1,0 +1,11 @@
+import os
+choice = str(input("Shutdown or Reboot? (s or r"))
+choice2 = int(input("Time in minutes: "))
+
+
+if choice == 's' or choice == 'S':
+    os.system("shutdown -s -t choice2")
+
+
+
+
